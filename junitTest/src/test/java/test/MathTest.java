@@ -20,7 +20,7 @@ public class MathTest {
 	@Test
 	public void testDivide(){
 		Math m = new Math();
-		assertEquals((Double)1.1,m.divide(0.0, 0.0));
+		assertEquals((Double)1.1,m.divide(0.1, 0.1));
 
 	}
 
